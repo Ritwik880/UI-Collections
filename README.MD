@@ -1,4 +1,4 @@
-<img src="https://github.com/Ritwik880/30-Days-Of-UI/blob/main/readme.png?raw=false" width="100%">
+<img src="https://github.com/Ritwik880/30-Days-Of-UI/blob/main/image/readme.png?raw=false" width="100%">
 
 # UI Challenge
 
