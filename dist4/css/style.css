@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: #192a56;
+    display: grid;
+    place-items: center;
+}
+a{
+    text-decoration: none;
+    transition: all 0.3s linear;
+    font-size: 5rem;
+}
+a:link{
+    color: #fff;
+}
+a:hover{
+    color: #192a56;
+    background-color: #fff;
+}
+a:active{
+    color: yellow;
+    background: #fff;
+}
+a:visited{
+    color: red;
+    background: yellow;
+}

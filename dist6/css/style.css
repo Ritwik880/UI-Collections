@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #38ada9;
+    color: #fff;
+}
+.main * {
+    padding-top: 5px;
+
+}
+li:nth-child(2n){
+    color: #b71540;
+}
+li:nth-child(2n+1){
+    color: #f6b93b;
+
+}
+li:nth-child(1){
+    color: #78e08f;
+}
+li:first-child{
+    color: #4a69bd;
+}
+li:last-child{
+    color: #0a3d62;
+}
