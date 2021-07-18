@@ -16,7 +16,7 @@
 .child {
     /* background-color: #30336b; */
     background-image: linear-gradient(rgba(54, 54, 54, 0.5), rgba(0, 0, 0, 0.5)),
-        url(./image/css.jpg);
+        url(../image/css.jpg);
     background-size: 100% 100%;
     box-shadow: 20px 20px 30px -6px #000;
     width: 60vw;
@@ -28,7 +28,7 @@
     .child {
         /* background-color: #30336b; */
         background-image: linear-gradient(rgba(54, 54, 54, 0.5), rgba(0, 0, 0, 0.5)),
-            url(./image/css.jpg);
+            url(../image/css.jpg);
 
 
     }
