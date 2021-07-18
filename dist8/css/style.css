@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    display: grid;
+    place-content: center;
+}
+h1{
+    font-size: 70px;
+    color: transparent;
+    background-image: url('/dist8/image/css.jpg');
+    background-size: 100% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+
+
+}

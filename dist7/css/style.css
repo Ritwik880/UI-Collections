@@ -2,4 +2,64 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}  
+.grand{
+    width: 100vw;
+    height: 100vh;
+    background: #dfe6e9;
+    color: #fff;
+ 
+    
+   
+}
+h1{
+    font-size: 4rem;
+    padding: 50px 0;
+    text-align: center;
+    color: #000;
+}
+
+.parents{
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all 0.2 linear;
+    position: relative;
+   
+    
+    
+   
+}
+.child{
+    
+    height: 200px;
+    background: #81ecec;
+    box-shadow: 10px 10px 20px #bac3c3;
+    flex: 1 1 200px;
+    margin: 20px;
+   
+    
+}
+.child p{
+    color: black;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.child:first-child{
+    background: #ffbe76;
+}
+.child:last-child{
+    background: #ff7979;
+}
+@media (max-width: 768px) {
+    .grand{
+        height: auto;
+    }
+    
 }
