@@ -1,4 +1,5 @@
 <img src="https://github.com/Ritwik880/30-Days-Of-UI/blob/main/dist1/image/readme.png?raw=false" width="100%">
+<img src="https://github.com/Ritwik880/30-Days-Of-UI/blob/main/dist11/image/card.png?raw=false" width="100%">
 
 # UI Challenge
 This is a challenge to master UI in 30 Days with only use of CSS and SASS
@@ -11,5 +12,6 @@ This is a challenge to master UI in 30 Days with only use of CSS and SASS
   <pre><center><a target="_blank" href="https://day5-ui.netlify.app"><b>day5-ui.netlify.app</b></a></center></pre>
   <pre><center><a target="_blank" href="https://day6-ui.netlify.app"><b>day6-ui.netlify.app</b></a></center></pre>
   <pre><center><a target="_blank" href="https://day7-ui.netlify.app"><b>day7-ui.netlify.app</b></a></center></pre>
+  <pre><center><a target="_blank" href="https://day11-ui.netlify.app"><b>day7-ui.netlify.app</b></a></center></pre>
 
 
