@@ -16,6 +16,7 @@ This is a challenge to master UI in 30 Days with only use of CSS and SASS
   <pre><center><a target="_blank" href="https://day13-ui.netlify.app"><b>day13-ui.netlify.app</b></a></center></pre>
   <pre><center><a target="_blank" href="https://day14-ui.netlify.app"><b>day14-ui.netlify.app</b></a></center></pre>
   <pre><center><a target="_blank" href="https://day15-ui.netlify.app"><b>day15-ui.netlify.app</b></a></center></pre>
+  <pre><center><a target="_blank" href="https://day17-ui.netlify.app"><b>day17-ui.netlify.app</b></a></center></pre>
 
 
 
