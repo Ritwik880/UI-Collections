@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(206, 21%, 94%);
+    display: grid;
+    place-items: center;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+img {
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.center::-webkit-scrollbar {
+    overflow: hidden;
+}
