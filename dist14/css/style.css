@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: hsl(216, 100%, 94%);
+    display: grid;
+    place-items: center;
+}
+img{
+    width: 300px;
+    height: 250px;
+    background: cornflowerblue;
+}
+img:hover{
+    opacity: 0.9;
+    border-radius: 16px;
+    cursor: pointer;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.8px 5.2px rgba(0, 0, 0, 0.034),
+    0 12.8px 10.2px rgba(0, 0, 0, 0.048),
+    0 22.8px 17.2px rgba(0, 0, 0, 0.06),
+    0 41.8px 32.2px rgba(0, 0, 0, 0.072),
+    0 100px 80px rgba(0, 0, 0, 0.086);
+}
