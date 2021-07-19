@@ -7,15 +7,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
+        * {
             padding: 0;
             margin: 0;
             box-sizing: border-box;
         }
-        :root{
-            --main-bg:var(--main-bg);
+
+        html {
+            font-size: 62.5%;
         }
 
+        .main {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            background-color: hsl(206, 21%, 94%);
+            display: grid;
+            place-items: center;
+        }
+
+        .center {
+            width: 15rem;
+            height: 15rem;
+            position: relative;
+            
+        }
+
+        span {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 5rem;
+            height: 5rem;
+            background-color: #1e272e;
+            animation: load 2s linear infinite;
+            box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+                0 6.8px 5.2px rgba(0, 0, 0, 0.034),
+                0 12.8px 10.2px rgba(0, 0, 0, 0.048),
+                0 22.8px 17.2px rgba(0, 0, 0, 0.06),
+                0 41.8px 32.2px rgba(0, 0, 0, 0.072),
+                0 100px 80px rgba(0, 0, 0, 0.086);
+        }
+        span:nth-child(2){
+            animation-delay: 0.67s;
+        }
+        span:nth-child(3){
+            animation-delay: 1.32s;
+        }
+
+
+        @keyframes load {
+            0% {
+                left: 0;
+                top: 0;
+            }
+
+            12.5% {
+                top: 0;
+                left: 50%;
+            }
+
+            25% {
+                top: 0;
+                left: 50%;
+
+            }
+
+            37.5% {
+                top: 50%;
+                left: 50%;
+
+            }
+
+            50% {
+                top: 50%;
+                left: 50%;
+
+            }
+
+            62.5% {
+                top: 0;
+                left: 50%;
+
+            }
+
+            75% {
+                top: 0;
+                left: 50%;
+
+            }
+
+            87.5% {
+                top: 0;
+                left: 0;
+
+            }
+
+
+            100% {
+                left: 0;
+                top: 0;
+            }
+        }
     </style>
 </head>
 
@@ -25,10 +118,7 @@
             <span></span>
             <span></span>
             <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+
         </div>
     </div>
 
