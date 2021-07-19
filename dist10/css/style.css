@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    width: calc(100vw - 40vw);
+    height: calc(100vw - 30vw);
+    position: relative;
+    border: 2px solid #000;
+    box-shadow: 
+    0 2.8px 2.2px rgba(0,0,0,0.034),
+    0 6.8px 5.2px rgba(0,0,0,0.034),
+    0 12.8px 10.2px rgba(0,0,0,0.034),
+    0 22.8px 17.2px rgba(0,0,0,0.034),
+    0 41.8px 32.2px rgba(0,0,0,0.034),
+    0 100px 80px rgba(0,0,0,0.034),
+}
+.pie-chart{
+    background: radial-gradient(circle closest-side, transparent 100%, #fff 0), conic-gradient(from 180deg, #ee5253 0,
+    #ee5253 35%, #ff9f43 0, #ff9f43 60%, #f368e0 0, #f368e0 75%
+    , #0abde3 0, #0abde3 89%, #10ac84 0, #10ac84 100%);
+    min-height: 300px;
+    min-height: 450px;
+
+}
+.center h2{
+    padding: 20px 0 20px 20px;
+}
+.center p{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    text-align: right;
+}
+.center span::after{
+    content: "";
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    font-weight: 700;
+    background: currentColor;
+    margin: 0 0.5rem;
+
+}
+.center h3{
+    position: absolute;
+    bottom: 0;
+    color: grey;
+    font-style: italic;
+
+}
