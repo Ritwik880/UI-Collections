@@ -1,5 +1,9 @@
 <img src="https://github.com/Ritwik880/30-Days-Of-UI/blob/main/dist1/image/readme.png?raw=false" width="100%">
 <img src="https://github.com/Ritwik880/30-Days-Of-UI/blob/main/dist11/image/card.png?raw=false" width="100%">
+<img src="https://github.com/Ritwik880/30-Days-Of-UI/blob/main/logo/camera.png?raw=false" width="100%">
+<img src="https://github.com/Ritwik880/30-Days-Of-UI/blob/main/logo/Git.png?raw=false" width="100%">
+<img src="https://github.com/Ritwik880/30-Days-Of-UI/blob/main/logo/Insta.png?raw=false" width="100%">
+<img src="https://github.com/Ritwik880/30-Days-Of-UI/blob/main/logo/React.png?raw=false" width="100%">
 
 # UI Challenge
 This is a challenge to master UI in 30 Days with only use of CSS and SASS
