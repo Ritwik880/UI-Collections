@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: grid;
+    place-items: center;
+  
+}
+.center{
+    width: 15rem;
+    height: 15rem;
+   
+}
+.root{
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    border: 0.3rem solid #fff;
+    border-radius: 50%;
+    animation: rot 2s linear infinite;
+}
+@keyframes rot{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}

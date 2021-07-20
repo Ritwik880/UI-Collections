@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.center{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(206, 21%, 94%);
+    display: grid;
+    place-items: center;
+    
+}
+.logo{
+    width: 15rem;
+    height: 15rem;
+    background-color: #f05030;
+    border-radius: 1.5rem;
+    outline: none;
+    position: relative;
+    transform: rotate(45deg);
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.8px 5.2px rgba(0, 0, 0, 0.034),
+    0 12.8px 10.2px rgba(0, 0, 0, 0.048),
+    0 22.8px 17.2px rgba(0, 0, 0, 0.06),
+    0 41.8px 32.2px rgba(0, 0, 0, 0.072),
+    0 100px 80px rgba(0, 0, 0, 0.086);
+}
+.logo1{
+    width: 11rem;
+    height: 1.2rem;
+    background-color: #fff;
+    position: absolute;
+    top: 3.5rem;
+}
+.logo1::before{
+    content: "";
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    top: -1rem;
+    left: 3rem;
+}
+
+.logo1::after{
+    content: "";
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    top: -1rem;
+    right: -1rem;
+}
+.logo2{
+    width: 9rem;
+    height: 1.2rem;
+    background-color: #fff;
+    position: absolute;
+    top: 6.7rem;
+    left: 3rem;
+    transform: rotate(46.5deg);
+}
+.logo2::before{
+    content: "";
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    top: -1rem;
+    right: -1rem;
+}
